@@ -2,7 +2,7 @@ const std = @import("std");
 
 pub fn build(b: *std.Build) void {
     var obj = b.addStaticLibrary(.{
-        .name = "tree-sitter-html",
+        .name = "tree-sitter-astro",
         .target = b.standardTargetOptions(.{}),
         .optimize = b.standardOptimizeOption(.{}),
     });
